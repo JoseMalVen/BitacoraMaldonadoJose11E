@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Maldonado Jose</title>
+    <style>
+      html, body{
+        height: 100%;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      header{
+        padding: 20px;
+        background-color: rgb(40, 186, 223);
+      }
+      main{
+        flex: 1;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        border-top: 2px solid rgb(219, 123, 44);
+        background-color: rgb(218, 175, 35);
+      }
+      header h1{
+        color: #fff; /* Color de letra blanco para que resalte el neón */
+        text-shadow: 
+         0 0 5px #fff, 
+         0 0 10px #b026ff, 
+         0 0 20px #b026ff, 
+         0 0 40px #b026ff;
+      }
+      footer img{
+        height: 50px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+      }
+      footer img:hover {
+        transform: scale(1.2);
+      }
+      .semana1 {
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        transition: 0.3s;
+      }
+      .semana1:hover {
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      }
+      .semana1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      .semana1 p {
+        color: #333;
+        line-height: 1.6;
+      }
+      .semana1 video {
+        width: 75%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        outline: none;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Bitacora Segunda y Tercera Unidad</h1>
+  </header>
+  <main>
+    <h4>Contenido pagina WEB</h4>
+    <div class="semana1">
+    <img src="foto1.png" alt="Captura de clase">
+    <h3>Entrada 1: Introduccion</h3>
+    <p>Esta semana aprendimo sobre arduinos</p>
+  </div>
+  <div class="semana1">
+  <video controls poster="arduinoimg.png">
+    <source src="videojosem.mp4" type="video/mp4">
+    Tu navegador no soporta el formato de video.
+  </video>
+  <h3>Entrada 2: Circuito Arduino</h3>
+  <p>En esta sesion aprendimos a usar elementos de arduino. Aparte de esto, completamos nuestro primer circuito.</p>
+  </div>
+  </main>
+  <footer>
+    <span>@VenturaVL</span>
+    <img src="https://www.capouilliez.edu.gt/panel-padres/assets/img/brand/capouilliez.svg" alt="Logo Colegio"
+    height="50" width="">
+  </footer>
+</body>
+</html>
